@@ -1,0 +1,29 @@
+{
+  "name": "hubot-fortune-ja",
+  "version": "0.0.0",
+  "description": "Returns fortune information from http://fortune.yahoo.co.jp/12astro/ranking.html",
+  "main": "fortune.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryurock/hubot-fortune-ja.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "fortune"
+  ],
+  "author": "ryurock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryurock/hubot-fortune-ja/issues"
+  },
+  "homepage": "https://github.com/ryurock/hubot-fortune-ja",
+  "dependencies": {
+    "cheerio": "^0.15.0",
+    "iconv": "^2.0.7",
+    "request": "^2.34.0"
+  }
+}
